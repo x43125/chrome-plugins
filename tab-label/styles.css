@@ -1,0 +1,12 @@
+.label {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid #ff0000;
+    background-color: #ff000033;
+    color: #fff;
+    cursor: move;
+    z-index: 1000;
+}

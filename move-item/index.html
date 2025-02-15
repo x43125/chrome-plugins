@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move Item</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="config">
+        <input type="text" id="name" placeholder="名称">
+        <input type="color" id="color" value="#000000">
+        <!-- 添加默认颜色块 -->
+        <div id="color-options">
+            <div class="color-option" style="background-color: red;"></div>
+            <div class="color-option" style="background-color: yellow;"></div>
+            <div class="color-option" style="background-color: green;"></div>
+            <div class="color-option" style="background-color: blue;"></div>
+            <div class="color-option" style="background-color: orange;"></div>
+            <div class="color-option" style="background-color: purple;"></div>
+            <div class="color-option" style="background-color: cyan;"></div>
+        </div>
+        <button id="save">保存</button>
+        <button id="delete">删除</button>
+    </div>
+    <div id="container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
