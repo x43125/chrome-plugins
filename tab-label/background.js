@@ -1,3 +1,3 @@
-chrome.runtime.onInstalled.addListener(function() {
-    chrome.storage.sync.set({ labelName: '', labelColor: '#ff0000', labelPosition: { x: 10, y: 10 } });
-});
+// chrome.runtime.onInstalled.addListener(function() {
+//     chrome.storage.sync.set({ name: '', color: '#ff0000', position: { x: 10, y: 10 } });
+// });
