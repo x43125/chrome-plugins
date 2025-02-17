@@ -67,7 +67,6 @@ function generate() {
 
     chrome.storage.sync.get([storageKey], function (data) {
         if (!data[storageKey]) {
-            console.log("没有数据")
             return
         }
 
@@ -84,7 +83,7 @@ function generate() {
         console.log("label length:", label.offsetLeft, label.offsetWidth, label.offsetHeight, label.offsetTop)
 
         // 赋予可拖拽能力
-        // 读取上一次的位置
+        // 读取storageValue.position存储的位置
         if (storageValue.position) {
             label.style.left = storageValue.position.x + 'px';
             label.style.top = storageValue.position.y + 'px';
