@@ -4,7 +4,7 @@
     border-radius: 20px;
     border: 2px solid #ff0000;
     background-color: #ff000033;
-    color: #fff;
+    color: #000;
     cursor: move;
     z-index: 1000;
 }
